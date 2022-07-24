@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. smoke.sh
+
+smoke_url_ok "http://54.226.98.253"
+    smoke_assert_body "register for labs"
+smoke_report
