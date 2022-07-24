@@ -6,7 +6,7 @@ services:
       context: ./upstac-api-master
     stop_signal: SIGKILL
     ports:
-      - 8080:8080
+      - 8090:8090
   # upstack backend
   upstac-frontend:
     build:
